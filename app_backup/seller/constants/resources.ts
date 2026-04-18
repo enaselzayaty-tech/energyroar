@@ -1,0 +1,41 @@
+export const RESOURCE_CATEGORIES = {
+Energy: [
+"Crude Oil",
+"Natural Gas",
+"LNG",
+"Coal",
+"Uranium",
+"Hydrogen",
+],
+Metals: [
+"Gold",
+"Silver",
+"Copper",
+"Aluminum",
+"Lithium",
+"Nickel",
+"Cobalt",
+"Rare Earth Elements",
+],
+Agriculture: [
+"Wheat",
+"Corn",
+"Soybeans",
+"Rice",
+"Sugar",
+"Coffee",
+"Cocoa",
+"Cotton",
+],
+Forestry: [
+"Timber",
+"Hardwood Logs",
+"Softwood Logs",
+"Wood Chips",
+"Pulp",
+],
+Water: [
+"Freshwater Rights",
+"Desalinated Water Supply",
+],
+};
