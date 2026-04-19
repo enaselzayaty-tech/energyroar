@@ -26,12 +26,15 @@ export default function ConsultingPage() {
         <p style={styles.tag}>Strategic Energy & Resource Advisory</p>
 
         <h1 style={styles.title}>
-          Premium consulting for energy, industrial, and resource-sector growth.
+          High-impact consulting for energy, industrial, and resource-sector
+          strategy.
         </h1>
 
         <p style={styles.subtitle}>
-          EnergyROAR helps clients navigate market opportunities, project
-          strategy, and commercial positioning with clarity and precision.
+          EnergyROAR advises operators, investors, and technical teams on market
+          positioning, project development, subsurface strategy, and
+          value-focused decision-making across complex energy and resource
+          opportunities.
         </p>
 
         <a href="mailto:info@energyroar.ca" style={styles.cta}>
@@ -46,24 +49,26 @@ export default function ConsultingPage() {
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Strategic Advisory</h3>
             <p style={styles.cardText}>
-              High-level guidance for companies evaluating growth opportunities
-              and market positioning.
+              Executive-level guidance for clients evaluating growth pathways,
+              portfolio direction, market positioning, and investment-facing
+              opportunities.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Energy Consulting</h3>
             <p style={styles.cardText}>
-              Advisory across energy and industrial sectors with a focus on
-              execution and value creation.
+              Technical-commercial advisory across energy and industrial sectors
+              with a focus on clarity, execution, and long-term value creation.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Project Positioning</h3>
             <p style={styles.cardText}>
-              Clear, professional presentation and messaging for projects and
-              ventures.
+              Clear strategic messaging, presentation support, and market-facing
+              positioning for projects, ventures, and business development
+              initiatives.
             </p>
           </div>
         </div>
@@ -76,42 +81,48 @@ export default function ConsultingPage() {
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Integrated Asset Evaluation</h3>
             <p style={styles.cardText}>
-              Technical and commercial review to support confident decision-making.
+              Technical and commercial framing to support more confident
+              development and capital decisions.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Field Development Planning</h3>
             <p style={styles.cardText}>
-              Strategic development thinking for assets, projects, and operational growth.
+              Structured development thinking for complex projects, assets, and
+              staged growth opportunities.
             </p>
           </div>
 
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Reservoir Modeling</h3>
+            <h3 style={styles.cardTitle}>Reservoir & Subsurface Strategy</h3>
             <p style={styles.cardText}>
-              Reservoir-focused analysis and subsurface interpretation for better planning.
+              Reservoir-focused interpretation and subsurface-informed planning
+              for technically demanding opportunities.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Digital Subsurface Transformation</h3>
             <p style={styles.cardText}>
-              Modern digital workflows and analytics support for technical teams.
+              Modern workflows, analytics support, and digital structure for
+              teams seeking sharper technical execution.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Energy Transition Strategy</h3>
             <p style={styles.cardText}>
-              Advisory on emerging opportunities across changing energy markets.
+              Advisory on strategic positioning across evolving energy markets
+              and transition-linked opportunities.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Low-Carbon Value Creation</h3>
             <p style={styles.cardText}>
-              Strategy support for emissions-aware growth and future-facing initiatives.
+              Strategic support for emissions-aware growth, future-facing
+              initiatives, and commercially grounded low-carbon pathways.
             </p>
           </div>
         </div>
@@ -121,7 +132,8 @@ export default function ConsultingPage() {
         <h2 style={styles.contactTitle}>Ready to work together?</h2>
 
         <p style={styles.contactText}>
-          Reach out to discuss your project, opportunity, or consulting needs.
+          Reach out to discuss a project, opportunity, or strategic advisory
+          need.
         </p>
 
         <a href="mailto:info@energyroar.ca" style={styles.cta}>
@@ -155,8 +167,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "22px 40px",
-    borderBottom: "1px solid rgba(255,255,255,0.06)",
+    padding: "28px 48px",
+    borderBottom: "1px solid rgba(255,255,255,0.05)",
   },
 
   logoContainer: {
@@ -166,54 +178,58 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
 
   logo: {
-    height: "55px",
+    height: "64px",
     width: "auto",
     objectFit: "contain",
   },
 
   logoText: {
     color: "#f5b942",
-    fontSize: "28px",
+    fontSize: "30px",
     fontWeight: 800,
-    letterSpacing: "0.3px",
+    letterSpacing: "0.2px",
   },
 
   ctaTop: {
     background: "#f5b942",
     color: "#111111",
     textDecoration: "none",
-    padding: "12px 18px",
-    borderRadius: "10px",
+    padding: "13px 20px",
+    borderRadius: "12px",
     fontWeight: 700,
-    boxShadow: "0 6px 18px rgba(245,185,66,0.25)",
+    fontSize: "15px",
+    boxShadow: "0 8px 24px rgba(245,185,66,0.22)",
   },
 
   hero: {
-    padding: "80px 40px 60px",
-    maxWidth: "1000px",
+    padding: "96px 48px 72px",
+    maxWidth: "980px",
   },
 
   tag: {
-    color: "#f5b942",
+    color: "#d8a928",
     marginBottom: "18px",
     fontWeight: 700,
-    fontSize: "16px",
+    fontSize: "15px",
+    letterSpacing: "0.8px",
+    textTransform: "uppercase",
   },
 
   title: {
-    fontSize: "64px",
-    lineHeight: 1.08,
+    fontSize: "56px",
+    lineHeight: 1.06,
     fontWeight: 800,
-    margin: "0 0 22px 0",
-    maxWidth: "920px",
+    margin: "0 0 24px 0",
+    maxWidth: "900px",
+    letterSpacing: "-1.2px",
   },
 
   subtitle: {
-    color: "#d0d0d0",
+    color: "#cfcfcf",
     marginBottom: "34px",
-    lineHeight: 1.7,
-    fontSize: "20px",
-    maxWidth: "780px",
+    lineHeight: 1.75,
+    fontSize: "19px",
+    maxWidth: "760px",
   },
 
   cta: {
@@ -221,62 +237,68 @@ const styles: { [key: string]: React.CSSProperties } = {
     background: "#f5b942",
     color: "#111111",
     textDecoration: "none",
-    padding: "14px 24px",
-    borderRadius: "10px",
+    padding: "15px 26px",
+    borderRadius: "12px",
     fontWeight: 700,
-    boxShadow: "0 6px 18px rgba(245,185,66,0.25)",
+    fontSize: "15px",
+    boxShadow: "0 8px 24px rgba(245,185,66,0.22)",
   },
 
   section: {
-    padding: "50px 40px",
+    padding: "56px 48px",
   },
 
   sectionTitle: {
     fontSize: "34px",
     marginBottom: "24px",
     fontWeight: 800,
+    letterSpacing: "-0.4px",
   },
 
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-    gap: "20px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+    gap: "22px",
   },
 
   card: {
     background: "rgba(255,255,255,0.03)",
-    padding: "24px",
-    borderRadius: "16px",
+    padding: "26px",
+    borderRadius: "18px",
     border: "1px solid rgba(255,255,255,0.06)",
+    boxShadow: "0 8px 24px rgba(0,0,0,0.18)",
   },
 
   cardTitle: {
     fontSize: "22px",
     marginBottom: "12px",
     fontWeight: 700,
+    letterSpacing: "-0.2px",
   },
 
   cardText: {
     color: "#d0d0d0",
-    lineHeight: 1.7,
+    lineHeight: 1.75,
     fontSize: "15px",
     margin: 0,
   },
 
   contact: {
-    padding: "80px 40px 100px",
+    padding: "88px 48px 110px",
     textAlign: "center",
   },
 
   contactTitle: {
-    fontSize: "38px",
+    fontSize: "40px",
     marginBottom: "14px",
     fontWeight: 800,
+    letterSpacing: "-0.5px",
   },
 
   contactText: {
     color: "#d0d0d0",
     marginBottom: "24px",
     fontSize: "18px",
+    lineHeight: 1.7,
   },
 };
