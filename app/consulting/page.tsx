@@ -2,167 +2,150 @@
 
 export default function ConsultingPage() {
   return (
-    <main style={styles.page}>
-
-      {/* Banner */}
+    <div style={styles.page}>
+      
+      {/* 🔶 UNDER CONSTRUCTION */}
       <div style={styles.banner}>
-        🚧 EnergyROAR Consulting Platform — Launching Soon
+        EnergyROAR Consulting Platform — Launching Soon
       </div>
 
-      {/* Header */}
+      {/* 🔥 HEADER */}
       <header style={styles.header}>
-        <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
-          <img
-            src="/energyroar-logo.png"
-            alt="EnergyROAR"
-            style={{ width: "52px" }}
-          />
-
-          <div style={styles.logoText}>EnergyROAR</div>
+        <div style={styles.logoContainer}>
+          <img src="/energyroar-logo.png" style={styles.logo} />
+          <span style={styles.logoText}>EnergyROAR</span>
         </div>
 
-        <a href="mailto:info@energyroar.ca" style={styles.cta}>
-          Book a Consultation
-        </a>
+        <button style={styles.ctaTop}>Book a Consultation</button>
       </header>
 
-      {/* Hero */}
+      {/* 🔥 HERO */}
       <section style={styles.hero}>
-        <p style={styles.eyebrow}>Strategic Energy & Resource Advisory</p>
+        <p style={styles.tag}>
+          Strategic Energy & Resource Advisory
+        </p>
 
         <h1 style={styles.title}>
-          Premium consulting for energy, industrial, and resource-sector growth.
+          Premium consulting for energy,
+          industrial, and resource-sector growth.
         </h1>
 
         <p style={styles.subtitle}>
-          EnergyROAR helps clients navigate market opportunities, project strategy,
-          and commercial positioning with clarity and precision.
+          EnergyROAR helps clients navigate market opportunities,
+          project strategy, and commercial positioning with clarity
+          and precision.
         </p>
 
-        <a href="mailto:info@energyroar.ca" style={styles.primaryButton}>
-          Book a Consultation
-        </a>
+        <button style={styles.cta}>Book a Consultation</button>
       </section>
 
-      {/* Services */}
+      {/* 🔥 SERVICES */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Services</h2>
 
         <div style={styles.grid}>
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Strategic Advisory</h3>
-            <p style={styles.cardText}>
-              High-level guidance for companies evaluating growth opportunities and market positioning.
+            <h3>Strategic Advisory</h3>
+            <p>
+              High-level guidance for companies evaluating growth
+              opportunities and market positioning.
             </p>
           </div>
 
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Energy Consulting</h3>
-            <p style={styles.cardText}>
-              Advisory across energy and industrial sectors with focus on execution and value creation.
+            <h3>Energy Consulting</h3>
+            <p>
+              Advisory across energy and industrial sectors with
+              a focus on execution and value creation.
             </p>
           </div>
 
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Project Positioning</h3>
-            <p style={styles.cardText}>
-              Clear, professional presentation and messaging for projects and ventures.
+            <h3>Project Positioning</h3>
+            <p>
+              Clear, professional presentation and messaging
+              for projects and ventures.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Expertise */}
+      {/* 🔥 EXPERTISE */}
       <section style={styles.section}>
         <h2 style={styles.sectionTitle}>Expertise</h2>
 
         <div style={styles.grid}>
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Subsurface & Reservoir</h3>
-            <p style={styles.cardText}>
-              Reservoir evaluation, field development planning, and subsurface interpretation.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Energy Strategy</h3>
-            <p style={styles.cardText}>
-              Market positioning, asset strategy, and energy transition advisory.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Digital & Analytics</h3>
-            <p style={styles.cardText}>
-              Data-driven workflows, modeling, and decision support systems.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Low-Carbon Solutions</h3>
-            <p style={styles.cardText}>
-              Carbon strategy, emissions reduction, and sustainable value creation.
-            </p>
-          </div>
+          <div style={styles.card}>Integrated Asset Evaluation</div>
+          <div style={styles.card}>Field Development Planning</div>
+          <div style={styles.card}>Reservoir Modeling</div>
+          <div style={styles.card}>Digital Subsurface Transformation</div>
+          <div style={styles.card}>Energy Transition Strategy</div>
+          <div style={styles.card}>Low-Carbon Value Creation</div>
         </div>
       </section>
 
-      {/* Contact */}
+      {/* 🔥 CONTACT */}
       <section style={styles.contact}>
-        <h2 style={styles.contactTitle}>Ready to work together?</h2>
+        <h2>Ready to work together?</h2>
 
-        <p style={styles.contactText}>
-          Reach out to discuss your project, opportunity, or consulting needs.
+        <p>
+          Reach out to discuss your project, opportunity, or
+          consulting needs.
         </p>
 
-        <a href="mailto:info@energyroar.ca" style={styles.primaryButton}>
-          Book a Consultation
+        <a href="mailto:info@energyroar.ca" style={styles.email}>
+          info@energyroar.ca
         </a>
       </section>
-
-    </main>
+    </div>
   );
 }
 
-const styles: { [key: string]: any } = {
+const styles = {
   page: {
+    background: "#0a0a0a",
+    color: "white",
     minHeight: "100vh",
-    background: "#050505",
-    color: "#FFFFFF",
-    fontFamily: "Inter, sans-serif",
+    fontFamily: "sans-serif",
   },
 
   banner: {
-    width: "100%",
-    padding: "12px",
+    background: "#f5b942",
+    color: "black",
     textAlign: "center",
-    background: "linear-gradient(90deg, #F5C542, #D39B17)",
-    color: "#111",
-    fontWeight: 700,
-    fontSize: "14px",
+    padding: "8px",
+    fontWeight: "600",
   },
 
   header: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "26px 40px",
-    borderBottom: "1px solid rgba(255,255,255,0.06)",
+    padding: "20px 40px",
+  },
+
+  logoContainer: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+  },
+
+  logo: {
+    height: "40px",
   },
 
   logoText: {
-    fontWeight: 800,
     fontSize: "22px",
-    color: "#F5C542",
+    fontWeight: "700",
+    color: "#f5b942",
   },
 
-  cta: {
-    background: "#F5C542",
-    color: "#111",
-    padding: "12px 20px",
-    borderRadius: "10px",
-    textDecoration: "none",
-    fontWeight: 700,
+  ctaTop: {
+    background: "#f5b942",
+    border: "none",
+    padding: "10px 16px",
+    borderRadius: "6px",
+    fontWeight: "600",
   },
 
   hero: {
@@ -170,41 +153,37 @@ const styles: { [key: string]: any } = {
     maxWidth: "900px",
   },
 
-  eyebrow: {
-    color: "#D8A928",
+  tag: {
+    color: "#f5b942",
     marginBottom: "10px",
-    fontWeight: 700,
   },
 
   title: {
-    fontSize: "52px",
-    fontWeight: 800,
+    fontSize: "48px",
+    fontWeight: "800",
     marginBottom: "20px",
   },
 
   subtitle: {
-    color: "#CCC",
+    color: "#ccc",
     marginBottom: "30px",
-    lineHeight: 1.6,
   },
 
-  primaryButton: {
-    background: "#F5C542",
-    color: "#111",
-    padding: "14px 24px",
-    borderRadius: "10px",
-    textDecoration: "none",
-    fontWeight: 700,
+  cta: {
+    background: "#f5b942",
+    border: "none",
+    padding: "12px 20px",
+    borderRadius: "6px",
+    fontWeight: "600",
   },
 
   section: {
-    padding: "50px 40px",
+    padding: "60px 40px",
   },
 
   sectionTitle: {
-    fontSize: "30px",
-    marginBottom: "20px",
-    fontWeight: 800,
+    fontSize: "28px",
+    marginBottom: "30px",
   },
 
   grid: {
@@ -214,19 +193,10 @@ const styles: { [key: string]: any } = {
   },
 
   card: {
-    background: "rgba(255,255,255,0.03)",
+    background: "#111",
     padding: "20px",
-    borderRadius: "14px",
-    border: "1px solid rgba(255,255,255,0.06)",
-  },
-
-  cardTitle: {
-    fontSize: "20px",
-    marginBottom: "10px",
-  },
-
-  cardText: {
-    color: "#CCC",
+    borderRadius: "10px",
+    border: "1px solid #222",
   },
 
   contact: {
@@ -234,14 +204,9 @@ const styles: { [key: string]: any } = {
     textAlign: "center",
   },
 
-  contactTitle: {
-    fontSize: "34px",
-    marginBottom: "10px",
-    fontWeight: 800,
-  },
-
-  contactText: {
-    color: "#CCC",
-    marginBottom: "20px",
+  email: {
+    color: "#f5b942",
+    display: "block",
+    marginTop: "10px",
   },
 };
