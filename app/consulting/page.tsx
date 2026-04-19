@@ -63,6 +63,43 @@ export default function ConsultingPage() {
           </div>
         </div>
       </section>
+      <section style={styles.section}>
+  <h2 style={styles.sectionTitle}>Expertise</h2>
+
+  <div style={styles.grid}>
+    <div style={styles.card}>
+      <h3>Subsurface & Reservoir</h3>
+      <p>
+        Reservoir evaluation, field development planning, and subsurface
+        interpretation to support high-impact decisions.
+      </p>
+    </div>
+
+    <div style={styles.card}>
+      <h3>Energy Strategy</h3>
+      <p>
+        Strategic positioning across energy markets including oil & gas,
+        transition opportunities, and asset optimization.
+      </p>
+    </div>
+
+    <div style={styles.card}>
+      <h3>Digital & Analytics</h3>
+      <p>
+        Data-driven decision-making, modeling workflows, and digital
+        transformation for technical teams.
+      </p>
+    </div>
+
+    <div style={styles.card}>
+      <h3>Low-Carbon Solutions</h3>
+      <p>
+        Advisory on carbon strategy, emissions reduction, and sustainable
+        value creation initiatives.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* Contact */}
       <section style={styles.contact}>
