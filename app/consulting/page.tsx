@@ -53,7 +53,7 @@ const styles = {
   },
 
   banner: {
-    textAlign: "center",
+    textAlign: "center" as const,
     padding: "10px",
     background: "#f5b942",
     color: "#111",
