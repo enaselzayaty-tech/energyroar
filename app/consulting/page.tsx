@@ -15,12 +15,8 @@ const {
 data: { user },
 } = await supabase.auth.getUser()
 
-if (!user) {
-router.push('/login')
-return
-}
 
-setUserEmail(user.email || '')
+setUserEmail(user?.email || '')
 setLoading(false)
 }
 
