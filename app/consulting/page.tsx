@@ -3,7 +3,7 @@
 export default function ConsultingPage() {
   return (
     <div style={styles.page}>
-      <div style={styles.banner}>EnergyROAR Advisory — Launching Soon</div>
+      <div style={styles.banner}>EnergyROAR Advisory | Launching Soon</div>
 
       <header style={styles.header}>
         <div style={styles.logoWrap}>
@@ -15,265 +15,184 @@ export default function ConsultingPage() {
           <div style={styles.logoText}>EnergyROAR</div>
         </div>
 
-        <a href="mailto:info@energyroar.ca" style={styles.headerButton}>
+        <a href="mailto:info@energyroar.ca" style={styles.contactBtn}>
           Contact
         </a>
       </header>
 
       <section style={styles.hero}>
-        <div style={styles.heroGlow} />
-
-        <div style={styles.heroInner}>
-          <p style={styles.eyebrow}>Strategic Energy &amp; Resource Advisory</p>
+        <div style={styles.heroTextWrap}>
+          <p style={styles.kicker}>Strategic Energy & Resource Advisory</p>
 
           <h1 style={styles.heroTitle}>
-            Strategic advisory for complex energy, industrial, and capital
-            decisions.
+            Strategic advisory for complex energy, industrial, and capital decisions.
           </h1>
 
           <p style={styles.heroText}>
             EnergyROAR supports operators, investors, and technical teams with
-            high-impact advisory across project development, subsurface
-            strategy, drilling-informed insight, and commercially grounded
-            decision-making.
+            high-impact advisory across project development, subsurface strategy,
+            drilling-informed insight, and commercially grounded execution.
           </p>
 
           <div style={styles.heroButtons}>
-            <a href="mailto:info@energyroar.ca" style={styles.primaryButton}>
+            <a href="mailto:info@energyroar.ca" style={styles.primaryBtn}>
               Request Advisory
             </a>
-            <a href="#capabilities" style={styles.secondaryButton}>
-              Explore Capabilities
+            <a href="#capabilities" style={styles.secondaryBtn}>
+              View Capabilities
             </a>
-          </div>
-        </div>
-      </section>
-
-      <section style={styles.metricsSection}>
-        <div style={styles.metricsGrid}>
-          <div style={styles.metricCard}>
-            <div style={styles.metricLabel}>Focus</div>
-            <div style={styles.metricValue}>Energy</div>
-            <div style={styles.metricText}>Resource-sector strategy and technical-commercial advisory</div>
-          </div>
-
-          <div style={styles.metricCard}>
-            <div style={styles.metricLabel}>Approach</div>
-            <div style={styles.metricValue}>Field + Strategy</div>
-            <div style={styles.metricText}>Practical insight shaped by operational awareness and execution thinking</div>
-          </div>
-
-          <div style={styles.metricCard}>
-            <div style={styles.metricLabel}>Perspective</div>
-            <div style={styles.metricValue}>Global</div>
-            <div style={styles.metricText}>Experience informed by exposure across key energy regions</div>
           </div>
         </div>
       </section>
 
       <section id="capabilities" style={styles.section}>
-        <div style={styles.sectionHeading}>
-          <p style={styles.sectionEyebrow}>Capabilities</p>
+        <div style={styles.sectionIntro}>
+          <p style={styles.kicker}>Capabilities</p>
           <h2 style={styles.sectionTitle}>
-            Advisory built for technically demanding projects and high-value strategic decisions.
+            Focused advisory across strategy, development, drilling, and execution.
           </h2>
-          <p style={styles.sectionText}>
-            We bring together strategic clarity, project thinking, and
-            field-informed perspective to support complex opportunities across
-            the energy value chain.
-          </p>
         </div>
 
-        <div style={styles.cardsThree}>
+        <div style={styles.cardGrid}>
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Strategic Advisory</h3>
-            <p style={styles.cardBody}>
-              Executive-level guidance on growth pathways, portfolio direction,
-              market positioning, and opportunity framing.
+            <p style={styles.cardText}>
+              Market positioning, portfolio thinking, opportunity framing, and
+              decision support for complex energy and resource opportunities.
             </p>
           </div>
 
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Project Development Support</h3>
-            <p style={styles.cardBody}>
-              Structured thinking for staged developments, capital-aware
-              planning, and technically grounded project progression.
+            <h3 style={styles.cardTitle}>Project Development</h3>
+            <p style={styles.cardText}>
+              Structured support for technically demanding projects requiring
+              capital awareness, development clarity, and execution discipline.
             </p>
           </div>
 
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Technical-Commercial Positioning</h3>
-            <p style={styles.cardBody}>
-              Clear presentation of technical assets for partners,
-              stakeholders, and investment-facing discussions.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section style={styles.splitSection}>
-        <div style={styles.splitLeft}>
-          <p style={styles.sectionEyebrow}>Field &amp; Drilling Exposure</p>
-          <h2 style={styles.sectionTitle}>
-            Grounded perspective shaped by real-world operating environments.
-          </h2>
-          <p style={styles.sectionText}>
-            EnergyROAR integrates direct drilling and field exposure across
-            multiple regions, bringing practical operational awareness to
-            advisory work that involves technical complexity, execution risk,
-            and strategic capital decisions.
-          </p>
-
-          <div style={styles.regionList}>
-            <div style={styles.regionItem}>North America</div>
-            <div style={styles.regionItem}>Middle East</div>
-            <div style={styles.regionItem}>Africa</div>
-            <div style={styles.regionItem}>Syria</div>
-          </div>
-        </div>
-
-        <div style={styles.splitRight}>
-          <div style={styles.imagePanel}>
-            <img
-              src="/energyroar-logo.png"
-              alt="EnergyROAR"
-              style={styles.panelLogo}
-            />
-          </div>
-        </div>
-      </section>
-
-      <section style={styles.section}>
-        <div style={styles.sectionHeading}>
-          <p style={styles.sectionEyebrow}>Expertise</p>
-          <h2 style={styles.sectionTitle}>
-            Sector-facing expertise across subsurface, development, and transition strategy.
-          </h2>
-        </div>
-
-        <div style={styles.cardsGrid}>
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Integrated Asset Evaluation</h3>
-            <p style={styles.cardBody}>
-              Technical and commercial framing to support more confident capital
-              and development decisions.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Field Development Planning</h3>
-            <p style={styles.cardBody}>
-              Structured development thinking for assets, staged projects, and
-              long-horizon opportunities.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Reservoir &amp; Subsurface Strategy</h3>
-            <p style={styles.cardBody}>
-              Reservoir-focused interpretation and subsurface-informed planning
-              for technically demanding opportunities.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Digital Subsurface Workflows</h3>
-            <p style={styles.cardBody}>
-              Modern digital structure, analytics support, and workflow clarity
-              for technical teams.
+            <h3 style={styles.cardTitle}>Technical & Drilling Advisory</h3>
+            <p style={styles.cardText}>
+              Field-informed perspective on drilling environments, operational
+              constraints, subsurface realities, and technically grounded planning.
             </p>
           </div>
 
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Energy Transition Positioning</h3>
-            <p style={styles.cardBody}>
-              Strategic framing of lower-carbon opportunities and evolving
-              energy market exposure.
-            </p>
-          </div>
-
-          <div style={styles.card}>
-            <h3 style={styles.cardTitle}>Execution-Oriented Thinking</h3>
-            <p style={styles.cardBody}>
-              Advisory grounded in practical constraints, strategic alignment,
-              and real decision-making environments.
+            <p style={styles.cardText}>
+              Strategic framing of lower-carbon opportunities and evolving energy
+              market exposure with practical commercial awareness.
             </p>
           </div>
         </div>
       </section>
 
-      <section style={styles.darkBand}>
-        <div style={styles.bandInner}>
-          <div style={styles.bandLeft}>
-            <p style={styles.sectionEyebrow}>Positioning</p>
-            <h2 style={styles.bandTitle}>
-              Technical depth. Strategic clarity. Practical impact.
+      <section style={styles.darkSection}>
+        <div style={styles.splitGrid}>
+          <div style={styles.panel}>
+            <p style={styles.kicker}>Global Exposure</p>
+            <h2 style={styles.panelTitle}>
+              Grounded perspective shaped by real-world operating environments.
             </h2>
+            <p style={styles.panelText}>
+              EnergyROAR integrates direct drilling and field exposure across
+              multiple regions, bringing practical operational awareness to advisory
+              work that involves technical complexity, execution risk, and strategic
+              capital decisions.
+            </p>
+
+            <div style={styles.regionGrid}>
+              <div style={styles.regionPill}>North America</div>
+              <div style={styles.regionPill}>Middle East</div>
+              <div style={styles.regionPill}>Africa</div>
+              <div style={styles.regionPill}>Syria</div>
+            </div>
           </div>
 
-          <div style={styles.bandRight}>
-            <p style={styles.bandText}>
-              EnergyROAR operates as a focused advisory platform for select
-              opportunities where technical complexity and strategic direction
-              matter equally.
+          <div style={styles.panel}>
+            <p style={styles.kicker}>Positioning</p>
+            <h2 style={styles.panelTitle}>
+              Technical depth, strategic clarity, practical impact.
+            </h2>
+            <p style={styles.panelText}>
+              We operate as a selective advisory platform for opportunities where
+              technical complexity and strategic direction matter equally.
             </p>
+
+            <div style={styles.bulletList}>
+              <div style={styles.bulletItem}>Field-tested perspective</div>
+              <div style={styles.bulletItem}>Execution-oriented thinking</div>
+              <div style={styles.bulletItem}>Commercially grounded advice</div>
+              <div style={styles.bulletItem}>High-value decision support</div>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <section style={styles.section}>
+        <div style={styles.sectionIntro}>
+          <p style={styles.kicker}>Industries</p>
+          <h2 style={styles.sectionTitle}>
+            Built for high-value work across the energy and resource landscape.
+          </h2>
+        </div>
+
+        <div style={styles.industryGrid}>
+          <div style={styles.industryCard}>Oil & Gas</div>
+          <div style={styles.industryCard}>Energy Infrastructure</div>
+          <div style={styles.industryCard}>Natural Resources</div>
+          <div style={styles.industryCard}>Industrial Projects</div>
         </div>
       </section>
 
       <section style={styles.contactSection}>
         <div style={styles.contactCard}>
-          <p style={styles.sectionEyebrow}>Contact</p>
+          <p style={styles.kicker}>Contact</p>
           <h2 style={styles.contactTitle}>
-            Discuss a project, partnership, or advisory need.
+            Discuss a project, partnership, or advisory requirement.
           </h2>
           <p style={styles.contactText}>
-            For consulting inquiries, strategic discussions, or early-stage
-            opportunities, reach out directly.
+            For consulting inquiries and strategic discussions, contact EnergyROAR directly.
           </p>
 
-          <div style={styles.contactButtons}>
-            <a href="mailto:info@energyroar.ca" style={styles.primaryButton}>
-              info@energyroar.ca
-            </a>
-          </div>
+          <a href="mailto:info@energyroar.ca" style={styles.primaryBtn}>
+            info@energyroar.ca
+          </a>
         </div>
       </section>
     </div>
   );
 }
 
-const styles = {
+const styles: any = {
   page: {
     minHeight: "100vh",
-    background:
-      "radial-gradient(circle at top left, rgba(245,185,66,0.08), transparent 22%), #060606",
+    background: "linear-gradient(180deg, #070707 0%, #0d0d0d 100%)",
     color: "#ffffff",
-    fontFamily:
-      'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    fontFamily: "Inter, Arial, sans-serif",
   },
 
   banner: {
-    textAlign: "center" as const,
+    textAlign: "center",
+    background: "#f5b942",
+    color: "#111111",
     padding: "10px 16px",
     fontSize: "13px",
-    background: "linear-gradient(90deg, #f5b942, #d89c10)",
-    color: "#111111",
     fontWeight: 700,
-    letterSpacing: "0.5px",
+    letterSpacing: "0.4px",
   },
 
   header: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "22px 46px",
-    borderBottom: "1px solid rgba(255,255,255,0.05)",
-    background: "rgba(6,6,6,0.82)",
-    backdropFilter: "blur(10px)",
-    position: "sticky" as const,
+    padding: "26px 48px",
+    borderBottom: "1px solid rgba(255,255,255,0.06)",
+    background: "rgba(7,7,7,0.88)",
+    position: "sticky",
     top: 0,
-    zIndex: 20,
+    zIndex: 10,
   },
 
   logoWrap: {
@@ -283,71 +202,58 @@ const styles = {
   },
 
   logo: {
-    height: "90px",
+    height: "84px",
     width: "auto",
-    objectFit: "contain" as const,
+    objectFit: "contain",
   },
 
   logoText: {
-    fontSize: "30px",
+    fontSize: "34px",
     fontWeight: 800,
     color: "#f5b942",
-    letterSpacing: "-0.2px",
+    letterSpacing: "-0.5px",
   },
 
-  headerButton: {
+  contactBtn: {
     background: "#f5b942",
     color: "#111111",
     textDecoration: "none",
-    padding: "12px 20px",
+    padding: "12px 22px",
     borderRadius: "999px",
     fontWeight: 700,
     fontSize: "14px",
-    boxShadow: "0 8px 30px rgba(245,185,66,0.18)",
   },
 
   hero: {
-    position: "relative" as const,
-    padding: "110px 46px 90px",
-    overflow: "hidden" as const,
+    padding: "90px 48px 70px",
   },
 
-  heroGlow: {
-    position: "absolute" as const,
-    top: "40px",
-    right: "-120px",
-    width: "420px",
-    height: "420px",
-    background: "radial-gradient(circle, rgba(245,185,66,0.16), transparent 70%)",
-    pointerEvents: "none" as const,
-  },
-
-  heroInner: {
+  heroTextWrap: {
     maxWidth: "980px",
   },
 
-  eyebrow: {
+  kicker: {
+    color: "#f5b942",
     fontSize: "13px",
-    textTransform: "uppercase" as const,
-    letterSpacing: "1px",
-    color: "#d8a928",
     fontWeight: 700,
+    letterSpacing: "1px",
+    textTransform: "uppercase",
     marginBottom: "18px",
   },
 
   heroTitle: {
-    fontSize: "68px",
+    fontSize: "72px",
     lineHeight: 1.02,
     fontWeight: 800,
     letterSpacing: "-2px",
-    margin: "0 0 24px 0",
-    maxWidth: "1050px",
+    margin: "0 0 22px 0",
+    maxWidth: "1100px",
   },
 
   heroText: {
-    fontSize: "20px",
-    lineHeight: 1.8,
-    color: "#d0d0d0",
+    fontSize: "21px",
+    lineHeight: 1.75,
+    color: "#d2d2d2",
     maxWidth: "780px",
     margin: "0 0 34px 0",
   },
@@ -355,242 +261,163 @@ const styles = {
   heroButtons: {
     display: "flex",
     gap: "14px",
-    flexWrap: "wrap" as const,
+    flexWrap: "wrap",
   },
 
-  primaryButton: {
+  primaryBtn: {
     display: "inline-block",
     background: "#f5b942",
     color: "#111111",
     textDecoration: "none",
-    padding: "14px 24px",
+    padding: "15px 24px",
     borderRadius: "999px",
     fontWeight: 700,
     fontSize: "15px",
-    boxShadow: "0 10px 30px rgba(245,185,66,0.18)",
   },
 
-  secondaryButton: {
+  secondaryBtn: {
     display: "inline-block",
     background: "transparent",
     color: "#ffffff",
     textDecoration: "none",
-    padding: "14px 24px",
+    padding: "15px 24px",
     borderRadius: "999px",
     fontWeight: 700,
     fontSize: "15px",
-    border: "1px solid rgba(255,255,255,0.16)",
-  },
-
-  metricsSection: {
-    padding: "0 46px 40px",
-  },
-
-  metricsGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-    gap: "18px",
-  },
-
-  metricCard: {
-    background: "linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02))",
-    border: "1px solid rgba(255,255,255,0.06)",
-    borderRadius: "20px",
-    padding: "24px",
-    boxShadow: "0 14px 32px rgba(0,0,0,0.22)",
-  },
-
-  metricLabel: {
-    fontSize: "12px",
-    textTransform: "uppercase" as const,
-    color: "#d8a928",
-    letterSpacing: "1px",
-    fontWeight: 700,
-    marginBottom: "10px",
-  },
-
-  metricValue: {
-    fontSize: "28px",
-    fontWeight: 800,
-    marginBottom: "8px",
-    letterSpacing: "-0.6px",
-  },
-
-  metricText: {
-    fontSize: "15px",
-    lineHeight: 1.7,
-    color: "#cfcfcf",
+    border: "1px solid rgba(255,255,255,0.15)",
   },
 
   section: {
-    padding: "72px 46px 20px",
+    padding: "70px 48px",
   },
 
-  sectionHeading: {
-    maxWidth: "880px",
-    marginBottom: "30px",
-  },
-
-  sectionEyebrow: {
-    fontSize: "12px",
-    textTransform: "uppercase" as const,
-    color: "#d8a928",
-    letterSpacing: "1px",
-    fontWeight: 700,
-    marginBottom: "10px",
+  sectionIntro: {
+    maxWidth: "860px",
+    marginBottom: "28px",
   },
 
   sectionTitle: {
-    fontSize: "40px",
+    fontSize: "42px",
     lineHeight: 1.12,
     fontWeight: 800,
     letterSpacing: "-1px",
-    margin: "0 0 16px 0",
-    maxWidth: "900px",
-  },
-
-  sectionText: {
-    fontSize: "18px",
-    lineHeight: 1.8,
-    color: "#cfcfcf",
     margin: 0,
-    maxWidth: "760px",
   },
 
-  cardsThree: {
+  cardGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-    gap: "20px",
-  },
-
-  cardsGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-    gap: "20px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+    gap: "22px",
   },
 
   card: {
-    background: "linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02))",
+    background: "rgba(255,255,255,0.035)",
     border: "1px solid rgba(255,255,255,0.06)",
     borderRadius: "20px",
-    padding: "28px",
-    boxShadow: "0 14px 32px rgba(0,0,0,0.22)",
+    padding: "30px",
+    minHeight: "220px",
   },
 
   cardTitle: {
     fontSize: "24px",
     fontWeight: 700,
-    margin: "0 0 12px 0",
-    letterSpacing: "-0.4px",
+    margin: "0 0 14px 0",
+    lineHeight: 1.2,
   },
 
-  cardBody: {
+  cardText: {
     fontSize: "16px",
     lineHeight: 1.8,
     color: "#cfcfcf",
     margin: 0,
   },
 
-  splitSection: {
-    display: "grid",
-    gridTemplateColumns: "1.2fr 0.8fr",
-    gap: "28px",
-    padding: "78px 46px 28px",
-    alignItems: "stretch",
+  darkSection: {
+    padding: "20px 48px 70px",
   },
 
-  splitLeft: {
-    background: "linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015))",
+  splitGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+    gap: "24px",
+  },
+
+  panel: {
+    background: "rgba(255,255,255,0.03)",
     border: "1px solid rgba(255,255,255,0.06)",
     borderRadius: "24px",
     padding: "34px",
-    boxShadow: "0 16px 34px rgba(0,0,0,0.22)",
   },
 
-  splitRight: {
-    minHeight: "100%",
+  panelTitle: {
+    fontSize: "36px",
+    lineHeight: 1.15,
+    fontWeight: 800,
+    letterSpacing: "-0.8px",
+    margin: "0 0 16px 0",
   },
 
-  imagePanel: {
-    height: "100%",
-    minHeight: "420px",
-    borderRadius: "24px",
-    border: "1px solid rgba(255,255,255,0.06)",
-    background:
-      "radial-gradient(circle at center, rgba(245,185,66,0.16), rgba(245,185,66,0.04), rgba(255,255,255,0.02))",
-    boxShadow: "0 16px 34px rgba(0,0,0,0.22)",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
+  panelText: {
+    fontSize: "17px",
+    lineHeight: 1.8,
+    color: "#d0d0d0",
+    margin: "0 0 24px 0",
   },
 
-  panelLogo: {
-    width: "220px",
-    height: "auto",
-    objectFit: "contain" as const,
-  },
-
-  regionList: {
+  regionGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-    gap: "14px",
-    marginTop: "24px",
+    gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+    gap: "12px",
   },
 
-  regionItem: {
-    padding: "14px 16px",
-    borderRadius: "14px",
-    background: "rgba(255,255,255,0.03)",
+  regionPill: {
+    background: "#171717",
     border: "1px solid rgba(255,255,255,0.06)",
-    color: "#f2f2f2",
+    borderRadius: "14px",
+    padding: "14px 16px",
+    fontWeight: 600,
+    color: "#f1f1f1",
+  },
+
+  bulletList: {
+    display: "grid",
+    gap: "12px",
+  },
+
+  bulletItem: {
+    background: "#171717",
+    border: "1px solid rgba(255,255,255,0.06)",
+    borderRadius: "14px",
+    padding: "14px 16px",
+    color: "#f1f1f1",
     fontWeight: 600,
   },
 
-  darkBand: {
-    padding: "80px 46px",
-  },
-
-  bandInner: {
+  industryGrid: {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr",
-    gap: "28px",
-    alignItems: "center",
-    borderTop: "1px solid rgba(255,255,255,0.06)",
-    borderBottom: "1px solid rgba(255,255,255,0.06)",
-    padding: "32px 0",
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "18px",
   },
 
-  bandLeft: {},
-
-  bandRight: {},
-
-  bandTitle: {
-    fontSize: "42px",
-    lineHeight: 1.12,
-    fontWeight: 800,
-    letterSpacing: "-1px",
-    margin: 0,
-    maxWidth: "620px",
-  },
-
-  bandText: {
-    fontSize: "18px",
-    lineHeight: 1.8,
-    color: "#cfcfcf",
-    margin: 0,
-    maxWidth: "620px",
+  industryCard: {
+    background: "rgba(255,255,255,0.035)",
+    border: "1px solid rgba(255,255,255,0.06)",
+    borderRadius: "18px",
+    padding: "26px",
+    fontSize: "22px",
+    fontWeight: 700,
+    textAlign: "center",
   },
 
   contactSection: {
-    padding: "20px 46px 110px",
+    padding: "20px 48px 100px",
   },
 
   contactCard: {
-    background: "linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02))",
+    background: "rgba(255,255,255,0.04)",
     border: "1px solid rgba(255,255,255,0.06)",
     borderRadius: "26px",
-    padding: "42px 34px",
-    boxShadow: "0 18px 40px rgba(0,0,0,0.24)",
+    padding: "40px",
   },
 
   contactTitle: {
@@ -598,7 +425,7 @@ const styles = {
     lineHeight: 1.12,
     fontWeight: 800,
     letterSpacing: "-1px",
-    margin: "0 0 14px 0",
+    margin: "0 0 16px 0",
     maxWidth: "760px",
   },
 
@@ -607,12 +434,6 @@ const styles = {
     lineHeight: 1.8,
     color: "#d0d0d0",
     margin: "0 0 24px 0",
-    maxWidth: "740px",
-  },
-
-  contactButtons: {
-    display: "flex",
-    gap: "14px",
-    flexWrap: "wrap" as const,
+    maxWidth: "720px",
   },
 };
