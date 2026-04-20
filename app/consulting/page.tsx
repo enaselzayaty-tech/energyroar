@@ -156,7 +156,18 @@ export default function ConsultingPage() {
             For consulting inquiries and strategic discussions, contact EnergyROAR directly.
           </p>
 
-          <a href="mailto:info@energyroar.ca" style={styles.primaryBtn}>
+          <a
+  href="mailto:info@energyroar.ca"
+  style={styles.contactBtn}
+  onMouseEnter={(e) => {
+  e.currentTarget.style.transform = "scale(1.08)";
+  e.currentTarget.style.boxShadow = "0 14px 34px rgba(245,185,66,0.45)";
+}}
+onMouseLeave={(e) => {
+  e.currentTarget.style.transform = "scale(1)";
+  e.currentTarget.style.boxShadow = "0 8px 24px rgba(245,185,66,0.28)";
+}}
+>
             info@energyroar.ca
           </a>
         </div>
@@ -202,27 +213,30 @@ const styles: any = {
   },
 
   logo: {
-    height: "84px",
+    height: "96px",
     width: "auto",
     objectFit: "contain",
   },
 
   logoText: {
-    fontSize: "34px",
-    fontWeight: 800,
-    color: "#f5b942",
-    letterSpacing: "-0.5px",
-  },
+  fontSize: "30px",
+  fontWeight: 800,
+  color: "#f5b942",
+  letterSpacing: "-0.5px",
+  textTransform: "uppercase",
+},
 
   contactBtn: {
-    background: "#f5b942",
-    color: "#111111",
-    textDecoration: "none",
-    padding: "12px 22px",
-    borderRadius: "999px",
-    fontWeight: 700,
-    fontSize: "14px",
-  },
+  background: "linear-gradient(135deg, #f5b942, #ffcc66)",
+  color: "#111111",
+  textDecoration: "none",
+  padding: "12px 22px",
+  borderRadius: "999px",
+  fontWeight: 700,
+  fontSize: "14px",
+  transition: "all 0.25s ease",
+  boxShadow: "0 8px 24px rgba(245,185,66,0.28)",
+},
 
   hero: {
     padding: "90px 48px 70px",
@@ -242,7 +256,7 @@ const styles: any = {
   },
 
   heroTitle: {
-    fontSize: "72px",
+    fontSize: "60px",
     lineHeight: 1.02,
     fontWeight: 800,
     letterSpacing: "-2px",
